@@ -1,11 +1,11 @@
-.main__content {
+.content__inicio {
   display: flex;
   flex-direction: column;
   max-width: 984px;
   margin: 92px auto;
 }
 
-.main__title {
+.content__title {
   max-width: 830px;
   font-family: "Inter Black", sans-serif;
   font-size: 54px;
@@ -13,14 +13,14 @@
   margin-bottom: 32px;
 }
 
-.main__subtitle {
+.content__subtitle {
   max-width: 738px;
   font-size: 24px;
   line-height: 1.5;
   margin-bottom: 24px;
 }
 
-.main__author {
+.content__author {
   max-width: 732px;
   text-align: end;
   font-size: 24px;
@@ -28,32 +28,32 @@
   margin-bottom: 40px;
 }
 
-.main__text {
+.content__text {
   max-width: 722px;
   font-size: 16px;
   line-height: 1.7;
 }
 
 @media screen and (min-width: 545px) and (max-width: 1024px) {
-  .main__content {
+  .content__inicio {
     max-width: 720px;
     margin: 90px 24px 64px;
   }
-  .main__title {
+  .content__title {
     font-size: 45px;
     line-height: 1.2;
     max-width: 707px;
   }
-  .main__subtitle {
+  .content__subtitle {
     font-size: 24px;
     line-height: 1.5;
     max-width: 720px;
   }
-  .main__author {
+  .content__author {
     max-width: 720px;
     font-size: 24px;
   }
-  .main__text {
+  .content__text {
     max-width: 720px;
     font-size: 16px;
     line-height: 1.5;
@@ -61,17 +61,17 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 544px) {
-  .main__content {
+  .content__inicio {
     margin: 64px 16px;
   }
-  .main__title {
+  .content__title {
     font-size: 32px;
     line-height: 1.2;
   }
-  .main__subtitle {
+  .content__subtitle {
     line-height: 1.5;
   }
-  .main__text {
+  .content__text {
     line-height: 1.5;
   }
 }
