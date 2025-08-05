@@ -1,0 +1,16 @@
+.photos {
+  display: flex;
+  justify-content: center;
+  max-width: 1184px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin: 0 auto;
+  grid-gap: 16px;
+}
+
+.photos__grid-image {
+  max-width: 284px;
+  height: 213px;
+  object-fit: fill;
+}
